@@ -30,7 +30,7 @@
     height: 100px;
     background-image: url("../img/deco.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     position: absolute;
     top: -20px;
     left: -40px;

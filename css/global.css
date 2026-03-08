@@ -28,14 +28,15 @@ img {
   line-height: 1;
   text-transform: uppercase;
   word-break: break-all;
-  max-width: 6ch;
-  /*cada linha com até 5 caracter q tem o tamanho 0*/
+  max-width: 4ch;
+  /*cada linha com até 4 caracter q tem o tamanho 0*/
 }
 
 @media (max-width: 800px) {
   .subtitulo {
     font-size: 3rem;
     text-transform: capitalize;
-    max-width: initial;
+    max-width: initial !important;
+    /*prioriza a ordem, escreve sobre outro valor que esta na frente, como no caso do max-width: 5ch em tela desktop*/
   }
 }
