@@ -43,7 +43,8 @@
   color: #525252;
   font-size: 0.875rem;
   text-align: right;
-  width: 80px; /*aumenta a area do ano para o text-align justificar o texto para a direita*/
+  width: 80px;
+  /*aumenta a area do ano para o text-align justificar o texto para a direita*/
 }
 
 .empresa-titulo {
