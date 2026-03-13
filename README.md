@@ -10,6 +10,6 @@ Este projeto foi criado para fins de **estudo e prática de estilização**, lay
 - CSS3
 
 ## 🔗 Acesso ao projeto
-**[Portifolio]([https://valeriacavania.github.io/estudo_css/](https://valeriacavania.github.io/aire.github.io/))**
+**[Portifolio](https://valeriacavania.github.io/aire.github.io/))**
 
 
