@@ -1,0 +1,120 @@
+.portifolio-bg {
+    background: #121212;
+    color: #fff;
+}
+
+.portifolio-container {
+    max-width: 1200px;
+    padding: 120px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    gap: 100px;
+    position: relative;
+}
+
+.portifolio-container .subtitulo {
+    color: #000;
+    max-width: 5ch;
+    align-self: center;
+}
+
+.portifolio-descricao {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    margin-bottom: 60px;
+    color: #8d8d8d;
+}
+
+.portifolio-descricao strong {
+    color: #fff;
+}
+
+.portifolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    padding: 20px;
+    background: #d4d1d1;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.portifolio::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background-image: linear-gradient(#a523ac, #803545);
+    position: absolute;
+    top: 20px;
+    right: -4px;
+}
+
+.portifolio-titulo {
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: bold;
+    color: #141414;
+}
+
+.portifolio-texto {
+    font-size: .875rem;
+    line-height: 1.4;
+    color: #525252;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.portifolio-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: start;
+}
+
+.portifolio-habilidades li {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    border-radius: 4px;
+    background-color: #80354C;
+    padding: 5px 10px;
+}
+
+.portifolio a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: "Fira Sans", Arial, sans-serif;
+    border: 1px solid #A523AC;
+    align-self: center;
+    width: fit-content;
+    border-radius: 4px;
+    color: #141414;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .portifolio-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .portifolio-container .subtitulo {
+        color: #fff;
+    }
+
+    .portifolio-descricao {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .portifolio {
+        grid-template-columns: 1fr;
+    }
+}

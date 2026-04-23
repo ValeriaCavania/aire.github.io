@@ -1,5 +1,5 @@
 .formacao {
-  background: #141414;
+  background: #151515;
   color: #fff;
 }
 
@@ -37,6 +37,7 @@
   max-width: 40ch;
   margin-bottom: 60px;
   color: #a3a3a3;
+  grid-column: 1/2;
 }
 
 .formacao-texto strong {
