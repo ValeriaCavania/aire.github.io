@@ -14,6 +14,19 @@
     position: relative;
 }
 
+.portifolio-container::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background-image: url("../img/deco.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+}
+
 .portifolio-container .subtitulo {
     color: #000;
     max-width: 5ch;
@@ -23,7 +36,7 @@
 .portifolio-descricao {
     font-size: 1.5rem;
     line-height: 1.33;
-    max-width: 40ch;
+    max-width: 50ch;
     margin-bottom: 60px;
     color: #8d8d8d;
 }
