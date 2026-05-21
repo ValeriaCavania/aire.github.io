@@ -14,7 +14,8 @@
 
 .formacao .subtitulo {
   color: #000;
-  max-width: 5ch;
+  font-size: 7.5rem;
+  max-width: 6ch;
 }
 
 .formacao-texto {

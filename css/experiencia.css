@@ -1,5 +1,7 @@
 .experiencia .subtitulo {
   color: #e0e0e0;
+  max-width: 5ch;
+  font-size: 8.5rem;
 }
 
 .experiencia-texto {

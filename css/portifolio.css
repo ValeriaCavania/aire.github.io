@@ -1,139 +1,140 @@
 .portifolio-bg {
-    background: #121212;
-    color: #fff;
+  background: #121212;
+  color: #fff;
 }
 
 .portifolio-container {
-    max-width: 1200px;
-    padding: 120px 20px 60px 20px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto;
-    gap: 100px;
-    position: relative;
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  gap: 100px;
+  position: relative;
 }
 
 .portifolio-container::after {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 100px;
-    background-image: url("../img/deco.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    bottom: -50px;
-    left: 20px;
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background-image: url("../img/deco.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
 }
 
 .portifolio-container .subtitulo {
-    color: #000;
-    max-width: 5ch;
-    align-self: center;
+  color: #000;
+  font-size: 7.5rem;
+  max-width: 7ch;
+  align-self: center;
 }
 
 .portifolio-descricao {
-    font-size: 1.5rem;
-    line-height: 1.33;
-    max-width: 50ch;
-    margin-bottom: 60px;
-    color: #8d8d8d;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 50ch;
+  margin-bottom: 60px;
+  color: #8d8d8d;
 }
 
 .portifolio-descricao strong {
-    color: #fff;
+  color: #fff;
 }
 
 .portifolio {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px 20px;
-    padding: 20px;
-    background: #d4d1d1;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #d4d1d1;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
 }
 
 .portifolio::after {
-    content: "";
-    display: block;
-    width: 4px;
-    height: 20px;
-    background-image: linear-gradient(#a523ac, #803545);
-    position: absolute;
-    top: 20px;
-    right: -4px;
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background-image: linear-gradient(#a523ac, #803545);
+  position: absolute;
+  top: 20px;
+  right: -4px;
 }
 
 .portifolio-titulo {
-    font-size: 1.5rem;
-    line-height: 1.1;
-    font-weight: bold;
-    color: #141414;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #141414;
 }
 
 .portifolio-texto {
-    font-size: .875rem;
-    line-height: 1.4;
-    color: #525252;
-    grid-column: 1;
-    grid-row: 2;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #525252;
+  grid-column: 1;
+  grid-row: 2;
 }
 
 .portifolio-habilidades {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-content: start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
 }
 
 .portifolio-habilidades li {
-    font-size: 0.875rem;
-    line-height: 1.4;
-    border-radius: 4px;
-    background-color: #80354C;
-    padding: 5px 10px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background-color: #80354c;
+  padding: 5px 10px;
 }
 
 .portifolio a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-family: "Fira Sans", Arial, sans-serif;
-    border: 1px solid #A523AC;
-    align-self: center;
-    width: fit-content;
-    border-radius: 4px;
-    color: #141414;
-    padding: 5px 10px;
-    cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Fira Sans", Arial, sans-serif;
+  border: 1px solid #a523ac;
+  align-self: center;
+  width: fit-content;
+  border-radius: 4px;
+  color: #141414;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
-    .portifolio-container {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
+  .portifolio-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 
-    .portifolio-container .subtitulo {
-        color: #fff;
-    }
+  .portifolio-container .subtitulo {
+    color: #fff;
+  }
 
-    .portifolio-descricao {
-        font-size: 1.25rem;
-    }
+  .portifolio-descricao {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 400px) {
-    .portifolio {
-        grid-template-columns: 1fr;
-    }
+  .portifolio {
+    grid-template-columns: 1fr;
+  }
 
-    .portifolio-extra h3::before {
-        position: initial;
-        /*igual ao static, nao sai do fluxo*/
-        margin-bottom: 10px;
-    }
+  .portifolio-extra h3::before {
+    position: initial;
+    /*igual ao static, nao sai do fluxo*/
+    margin-bottom: 10px;
+  }
 }
