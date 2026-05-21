@@ -29,8 +29,8 @@
 
 .portifolio-container .subtitulo {
   color: #000;
-  font-size: 7.5rem;
-  max-width: 7ch;
+  font-size: 7rem;
+  max-width: 5ch;
   align-self: center;
 }
 
@@ -120,6 +120,7 @@
 
   .portifolio-container .subtitulo {
     color: #fff;
+    font-size: 3rem;
   }
 
   .portifolio-descricao {
